@@ -1,0 +1,124 @@
+html,
+body {
+	height: 100%;
+}
+
+.wrapper {
+	overflow : hidden;
+	min-width: 1310px;
+}
+
+body {
+	margin: 0px;
+}
+
+.main-pc {
+	height    : 100vh;
+	background: url(/img/bg/main-screen__bgc.jpg) center center / cover no-repeat;
+}
+
+.header {
+	display        : flex;
+	justify-content: space-between;
+	align-items    : center;
+	font           : 16px / 1.5 "roboto", sans-serif;
+	margin-right   : 80px;
+	margin-left    : 80px;
+	padding-top    : 48px;
+}
+
+.main-menu {
+	display   : flex;
+	list-style: none;
+}
+
+.main-menu__item {
+	margin-right: 56px;
+}
+
+.main-menu__item:last-child {
+	margin-right: 0px;
+}
+
+.main-menu__link {
+	text-decoration: none;
+	color          : white;
+}
+
+.logo {
+	position: relative;
+}
+
+.logo__pic {
+	position: absolute;
+	top     : 11px;
+	right   : 0px;
+}
+
+.login {
+	text-decoration: none;
+	text-align     : center;
+	background     : linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+	border-radius  : 50px;
+	position       : relative;
+	padding        : 10px 30px;
+}
+
+.login {
+	color: white;
+}
+
+.container {
+	margin: 0px auto;
+	width : 1296px;
+}
+
+.pc__text {
+	margin-top: 270px;
+}
+
+.lined-text__word {
+	font       : 64px / 1.4 "roboto", sans-serif;
+	font-weight: bold;
+	color      : white;
+}
+
+.cd-timer {
+	display: flex;
+}
+
+.cd-timer__square {
+	margin-right: 30px;
+	width       : 102px;
+	height      : 112px;
+	background  : #121212;
+}
+
+.cd-timer__square:last-child {
+	margin-right: 0px;
+}
+
+.cd-timer__text {
+	font      : 16px / 1.4 "roboto", sans-serif;
+	color     : white;
+	text-align: center;
+	opacity   : 0.4;
+}
+
+/*
+.cd-timer__text:last-child {
+	margin-right: 0px;
+}
+*/
+.cd-timer__number {
+	font       : 36px / 1.4 "roboto", sans-serif;
+	color      : white;
+	font-weight: bold;
+	text-align : center;
+	margin-top : 20px;
+}
+
+/*.cd-timer__number:last-child {
+	mr
+}
+*/
